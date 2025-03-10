@@ -179,6 +179,15 @@ function MovieDetail(props) {
                       >
                         Magnet link
                       </Button>
+                      <Button
+                        variant={"outlined"}
+                        size={"small"}
+                        startIcon={<PlayCircleOutline />}
+                        href={`https://uflix.cc/movie/${movieDetail?.title.replace(/\s+/g, "-")}-${movieDetail?.year}`}
+                        target={"_blank"}
+                      >
+                        Watch
+                      </Button>
                     </Box>
                     <Box
                       position={"absolute"}
