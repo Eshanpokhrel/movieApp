@@ -13,8 +13,8 @@ export default function Header() {
         <Toolbar>
           <img
             width={"auto"}
-            height={28}
-            src={"https://yts.mx/assets/images/website/logo-YTS.svg"}
+            height={40}
+            src="/movie.svg"
             alt=""
           />
         </Toolbar>
