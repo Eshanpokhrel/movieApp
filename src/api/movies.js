@@ -30,6 +30,7 @@ export function getMovieDetailById(id) {
       .get(`https://yts.mx/api/v2/movie_details.json?movie_id=${id}`)
       .then((res) => {
         resolve(res?.data?.data);
+        // console.log(res?.data?.data)
       })
       .catch((err) => {
         reject(err);
